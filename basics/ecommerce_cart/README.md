@@ -2,16 +2,16 @@
 
 ## 📌 Description
 
-A simple console-based e-commerce cart system built using Core Java.
+A simple console-based cart system built using Core Java.
 
-This project demonstrates how products can be added to a cart, displayed, and how the total price is calculated.
+This project simulates how items are added to a shopping cart and how totals are calculated.
 
 ---
 
 ## 🚀 Features
 
 * Add products to cart
-* Store multiple items
+* Merge duplicate products automatically
 * Display cart contents
 * Calculate total cart value
 
@@ -22,18 +22,18 @@ This project demonstrates how products can be added to a cart, displayed, and ho
 * Classes and Objects (OOP)
 * Encapsulation
 * ArrayList (Collections)
-* Method design
+* Searching and updating objects in a list
 * Object interaction
 
 ---
 
 ## ▶️ How to Run
 
-1. Compile all files:
-   javac basics/ecommerce_cart/*.java
+Compile:
+javac basics/ecommerce_cart/*.java
 
-2. Run:
-   java ecommerce_cart.Main
+Run:
+java ecommerce_cart.Main
 
 ---
 
@@ -47,16 +47,13 @@ ecommerce_cart/
 
 ---
 
-## 💡 Future Improvements
+## 💡 Recent Updates
 
-* Merge duplicate products in cart
-* Remove items from cart
-* Update product quantity
-* Apply discounts
-* Add user system
+* Implemented merging of duplicate products
+* Improved cart logic for real-world behavior
 
 ---
 
 ## 👨‍💻 Author
 
-Nmuis Iuhra
+Jelly Fish
