@@ -7,6 +7,7 @@ public class Account {
     private int pin;
     private double balance;
     private boolean activeStatus = true;
+    private int transactionCount = 0;
     
     public Account(String accountNumber, String userName, int pin, double balance) {
         this.userName = userName;
@@ -26,6 +27,10 @@ public class Account {
 
     public String getUserName() {
         return userName;
+    }
+
+    public int getTransactionCount() {
+        return transactionCount;
     }
 
     public void setUserName(String userName) {
@@ -62,6 +67,7 @@ public class Account {
             return;
         }
         balance += amount;
+        transactionCount++;
     }
     
     public boolean withdraw(double amount) {
@@ -76,6 +82,7 @@ public class Account {
 
         if (amount <= balance) {
             balance -= amount;
+            transactionCount++;
             return true;
         } else {
             System.out.println("Insufficient balance");
