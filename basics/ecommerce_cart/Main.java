@@ -9,6 +9,8 @@ public class Main {
         Product p2 = new Product(2, "Mouse", 500.0);
 
         cart.addItem(p1, 1);
+        cart.addItem(p1, 1);
+        cart.addItem(p1, 2); // should merge
         cart.addItem(p2, 2);
 
         cart.showCart();
