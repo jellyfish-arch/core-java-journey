@@ -8,14 +8,36 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            system.showAvailableSeats();
+            System.out.println("\n1. Show Seats");
+            System.out.println("2. Book Seat");
+            System.out.println("3. Cancel Seat");
+            System.out.println("0. Exit");
 
-            System.out.print("Enter seat number to book (0 to exit): ");
+            System.out.print("Enter choice: ");
             int choice = sc.nextInt();
 
             if (choice == 0) break;
 
-            system.bookSeat(choice);
+            switch (choice) {
+                case 1:
+                    system.showAvailableSeats();
+                    break;
+
+                case 2:
+                    System.out.print("Enter seat number to book: ");
+                    int book = sc.nextInt();
+                    system.bookSeat(book);
+                    break;
+
+                case 3:
+                    System.out.print("Enter seat number to cancel: ");
+                    int cancel = sc.nextInt();
+                    system.cancelSeat(cancel);
+                    break;
+
+                default:
+                    System.out.println("Invalid choice");
+            }
         }
         sc.close();
     }
