@@ -50,6 +50,7 @@ public class ATM {
             System.out.println("2. Withdraw");
             System.out.println("3. Check Balance");
             System.out.println("4. Exit");
+            System.out.println("5. Transaction Count");
 
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
@@ -78,6 +79,10 @@ public class ATM {
                 case 4:
                     System.out.println("Thank you for using ATM");
                     return;
+                
+                case 5:
+                    System.out.println("Transactions: " + acc.getTransactionCount());
+                    break;
 
                 default:
                     System.out.println("Invalid choice");
