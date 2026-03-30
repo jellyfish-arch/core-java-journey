@@ -34,4 +34,16 @@ public class TicketSystem {
         System.out.println("Seat not found.");
         return false;
     }
+
+    public boolean cancelSeat(int seatNumber) {
+        for (Seat seat : seats) {
+            if (seat.getSeatNumber() == seatNumber) {
+                return seat.cancelBooking();
+            }
+        }
+
+        System.out.println("Seat not found.");
+        return false;
+    }
+    
 }
