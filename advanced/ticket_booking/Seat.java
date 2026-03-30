@@ -30,4 +30,15 @@ public class Seat {
         }
     }
 
+    public boolean cancelBooking() {
+        if (!isBooked) {
+            System.out.println("Seat is not booked.");
+            return false;
+        }
+
+        isBooked = false;
+        System.out.println("Seat " + seatNumber + " booking cancelled.");
+        return true;
+    }
+
 }
