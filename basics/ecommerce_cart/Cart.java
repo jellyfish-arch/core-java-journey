@@ -23,6 +23,23 @@ public class Cart {
         }
     }
 
+    public void removeItem(int productId) {
+
+        Iterator<CartItem> iterator = items.iterator();
+
+        while (iterator.hasNext()) {
+            CartItem item = iterator.next();
+
+            if (item.getProduct().getId() == productId) {
+                iterator.remove();
+                System.out.println("Item removed");
+                return;
+            }
+        }
+
+        System.out.println("Product not found in cart");
+    }
+
     public double getTotal() {
         double total = 0;
 
