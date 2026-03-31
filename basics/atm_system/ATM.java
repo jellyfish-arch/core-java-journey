@@ -51,6 +51,7 @@ public class ATM {
             System.out.println("3. Check Balance");
             System.out.println("4. Exit");
             System.out.println("5. Transaction Count");
+            System.out.println("6. Change PIN");
 
             System.out.print("Enter choice: ");
             int choice = sc.nextInt();
@@ -82,6 +83,15 @@ public class ATM {
                 
                 case 5:
                     System.out.println("Transactions: " + acc.getTransactionCount());
+                    break;
+                case 6:
+                    System.out.print("Enter old PIN: ");
+                    int oldPin = sc.nextInt();
+
+                    System.out.print("Enter new PIN: ");
+                    int newPin = sc.nextInt();
+
+                    acc.changePin(oldPin, newPin);
                     break;
 
                 default:
