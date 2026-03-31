@@ -35,6 +35,16 @@ public class TicketSystem {
         return false;
     }
 
+    public void showAllSeats() {
+        for (Seat seat : seats) {
+            if (seat.isBooked()) {
+                System.out.println("Seat " + seat.getSeatNumber() + " - Booked");
+            } else {
+                System.out.println("Seat " + seat.getSeatNumber() + " - Available");
+            }
+        }
+    }
+
     public boolean cancelSeat(int seatNumber) {
         for (Seat seat : seats) {
             if (seat.getSeatNumber() == seatNumber) {
