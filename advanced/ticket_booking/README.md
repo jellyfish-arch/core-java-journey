@@ -2,9 +2,7 @@
 
 ## 📌 Description
 
-A console-based ticket booking system built using Core Java.
-
-This project allows users to view available seats, book seats, and cancel bookings.
+A console-based ticket booking system with seat management.
 
 ---
 
@@ -12,49 +10,27 @@ This project allows users to view available seats, book seats, and cancel bookin
 
 * View available seats
 * Book a seat
-* Prevent double booking
-* Cancel booked seats
-* Interactive menu system
-
----
-
-## 🧠 Concepts Used
-
-* Classes and Objects (OOP)
-* Encapsulation
-* ArrayList (Collections)
-* Looping and condition checking
-* State management
-
----
-
-## ▶️ How to Run
-
-Compile:
-javac basics/ticket_booking/*.java
-
-Run:
-java ticket_booking.Main
-
----
-
-## 📂 Project Structure
-
-ticket_booking/
-├── Seat.java
-├── TicketSystem.java
-├── Main.java
+* Cancel booking
+* View all seats (booked + available)
+* Menu-based interaction
 
 ---
 
 ## 💡 Recent Updates
 
-* Added seat cancellation feature
-* Introduced menu-based interaction
-* Improved system flow
+* Added cancel booking feature (Day 2)
+* Added full seat view (Day 3)
+* Improved system interaction
+
+---
+
+## ▶️ How to Run
+
+javac basics/ticket_booking/*.java
+java ticket_booking.Main
 
 ---
 
 ## 👨‍💻 Author
 
-Jelly Fish
+Nmuis Iuhra
