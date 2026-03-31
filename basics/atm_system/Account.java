@@ -97,6 +97,21 @@ public class Account {
             System.out.println("Already deactivated.");
         }
     }
+
+    public void changePin(int oldPin, int newPin) {
+        if (this.pin != oldPin) {
+            System.out.println("Incorrect old PIN");
+            return;
+        }
+
+        if (newPin < 1000 || newPin > 9999) {
+            System.out.println("PIN must be 4 digits");
+            return;
+        }
+
+        this.pin = newPin;
+        System.out.println("PIN updated successfully");
+    }
     
     public void activate() {
         if (activeStatus) {
