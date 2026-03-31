@@ -11,6 +11,7 @@ public class Main {
             System.out.println("\n1. Show Seats");
             System.out.println("2. Book Seat");
             System.out.println("3. Cancel Seat");
+            System.out.println("4. Show all Seats.");
             System.out.println("0. Exit");
 
             System.out.print("Enter choice: ");
@@ -33,6 +34,9 @@ public class Main {
                     System.out.print("Enter seat number to cancel: ");
                     int cancel = sc.nextInt();
                     system.cancelSeat(cancel);
+                    break;
+                case 4:
+                    system.showAllSeats();
                     break;
 
                 default:
