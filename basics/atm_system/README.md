@@ -4,57 +4,33 @@
 
 A console-based ATM simulation built using Core Java.
 
-This project allows users to log in, perform transactions, and track their activity.
-
 ---
 
 ## 🚀 Features
 
-* Secure login using account number and PIN
-* Deposit money with validation
-* Withdraw money with balance check
+* Login using account number and PIN
+* Deposit and withdraw money
 * Check account balance
-* Track number of transactions performed
-
----
-
-## 🧠 Concepts Used
-
-* Classes and Objects (OOP)
-* Encapsulation
-* ArrayList (Collections)
-* Conditional statements and loops
-* Method design and state management
-
----
-
-## ▶️ How to Run
-
-Compile:
-javac basics/atm_system/*.java
-
-Run:
-java atm_system.Main
-
----
-
-## 📂 Project Structure
-
-atm_system/
-├── Account.java
-├── ATM.java
-├── Main.java
+* Track number of transactions
+* Change PIN securely
 
 ---
 
 ## 💡 Recent Updates
 
-* Added transaction counter
-* Improved validation for deposit and withdraw
-* Enhanced menu system
+* Added transaction counter (Day 2)
+* Added PIN change feature (Day 3)
+* Improved validation and user interaction
+
+---
+
+## ▶️ How to Run
+
+javac basics/atm_system/*.java
+java atm_system.Main
 
 ---
 
 ## 👨‍💻 Author
 
-Jelly Fish
+Nmuis Iuhra
