@@ -12,6 +12,7 @@ public class Main {
         cart.addItem(p1, 1);
         cart.addItem(p1, 2); // should merge
         cart.addItem(p2, 2);
+        cart.removeItem(1);
 
         cart.showCart();
         System.out.println("Total: " + cart.getTotal());
