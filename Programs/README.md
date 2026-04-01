@@ -1,78 +1,96 @@
 # 📁 Programs – Core Java Practice
 
-This folder contains a collection of daily Java programs focused on building strong problem-solving skills and mastering core programming concepts.
+This folder contains a structured collection of Java programs built through daily practice, focusing on strengthening problem-solving skills and core programming concepts.
 
 ---
 
 ## 🎯 Purpose
 
-The goal of this folder is to:
-
-* Develop **logical thinking** through consistent practice
-* Strengthen understanding of **core Java fundamentals**
-* Build a habit of **daily coding and GitHub contributions**
-* Transition from basic problems to **structured problem-solving**
+* Build strong **logical thinking**
+* Master **core Java fundamentals**
+* Maintain **consistent daily coding**
+* Progress from basic problems to **efficient solutions**
 
 ---
 
-## 🧠 What You'll Find Here
+## 📅 Progress Structure
 
-The programs are organized progressively, covering:
+The programs are organized day-wise to reflect continuous learning and improvement.
 
-### 🔹 Basic Programs
-
-* Pattern printing (star, number patterns)
-* Loops and conditional logic
-* Simple arithmetic problems
-
-### 🔹 Logic Building
-
-* Fibonacci series
-* Prime number checks
-* Palindrome (number & string)
-* Armstrong numbers
-* GCD / LCM
-
-### 🔹 Intermediate Concepts
-
-* Arrays (searching, sorting)
-* String manipulation
-* Frequency counting
-* Anagram checks
-
-### 🔹 Practice-Based Mini Problems
-
-* Menu-driven programs
-* Small utility-based applications
-* Real-world inspired logic building
+```
+Programs/
+├── Day01/
+├── Day02/
+└── ...
+```
 
 ---
 
-## 🚀 Learning Approach
+## 🚀 Learning Progress
 
-* Practice **consistently** rather than randomly
+### 🟢 Day 01 – Foundations
+
+* Basic pattern printing
+* Loop control and nested loops
+* Introductory number problems
+
+---
+
+### 🟡 Day 02 – Logic + Optimization (Merged Progress)
+
+> This day combines both intermediate logic problems and early optimization concepts to accelerate learning.
+
+Covered topics:
+
+* 🔺 Advanced patterns (Pyramid pattern)
+* 🔁 Number reversal and palindrome check
+* 🔢 Armstrong numbers
+* ✖️ Factorial calculations
+* 📊 Multiplication tables (with input)
+* 🔍 Prime number (optimized approach)
+* ⚙️ GCD and LCM
+* ➕ Sum of digits
+* 💪 Strong number
+
+---
+
+## 🧠 Key Concepts Practiced
+
+* Nested loops and pattern logic
+* Digit extraction using `%` and `/`
+* Mathematical computations
+* Optimization techniques (`i * i <= n`)
+* Function/method creation
+* Code structuring and readability
+
+---
+
+## ⚡ Learning Approach
+
 * Focus on **understanding logic**, not memorizing code
-* Write clean and readable code
-* Gradually increase problem difficulty
+* Gradually increase difficulty
+* Combine related concepts for better retention
+* Improve code step-by-step
 
 ---
 
-## 💡 Future Improvements
+## 💡 Next Steps
 
+* Introduce **arrays and searching algorithms**
 * Convert programs into a **menu-driven application**
-* Add **user input handling** to all programs
-* Optimize solutions for better performance
-* Integrate concepts into **mini projects**
+* Add **user input handling everywhere**
+* Start integrating logic into **mini projects**
 
 ---
 
 ## 📌 Note
 
-This is part of an ongoing journey to build strong foundations in Java and problem-solving.
-The focus is on progress over perfection 🚀
+Some advanced logic problems originally planned for later days were completed earlier to maintain momentum and challenge progression.
+
+This repository reflects a **flexible and growth-oriented learning approach**, prioritizing understanding over rigid scheduling 🚀
 
 ---
 
 ## 🔥 Author
 
-Maintained by a developer actively learning, building, and improving every day.
+Maintained as part of a continuous journey in mastering Java and problem-solving.
