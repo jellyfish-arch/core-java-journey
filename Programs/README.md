@@ -1,96 +1,92 @@
-# 📁 Programs – Core Java Practice
+# 📅 Day 03 – Logic Building + Arrays Introduction
 
-This folder contains a structured collection of Java programs built through daily practice, focusing on strengthening problem-solving skills and core programming concepts.
-
----
-
-## 🎯 Purpose
-
-* Build strong **logical thinking**
-* Master **core Java fundamentals**
-* Maintain **consistent daily coding**
-* Progress from basic problems to **efficient solutions**
+This day focuses on strengthening problem-solving skills by combining number-based logic, string manipulation, and an introduction to arrays.
 
 ---
 
-## 📅 Progress Structure
+## 🚀 Overview
 
-The programs are organized day-wise to reflect continuous learning and improvement.
+Day 03 marks a transition from basic programming to more structured problem-solving.
+It includes a mix of:
 
-```
-Programs/
-├── Day01/
-├── Day02/
-└── ...
-```
-
----
-
-## 🚀 Learning Progress
-
-### 🟢 Day 01 – Foundations
-
-* Basic pattern printing
-* Loop control and nested loops
-* Introductory number problems
+* Number-based logic problems
+* String operations
+* Introductory array concepts
+* Control flow improvements
 
 ---
 
-### 🟡 Day 02 – Logic + Optimization (Merged Progress)
+## 🧠 Topics Covered
 
-> This day combines both intermediate logic problems and early optimization concepts to accelerate learning.
+### 🔢 Number-Based Logic
 
-Covered topics:
+* Count digits in a number
+* Sum of even and odd digits
+* Largest among three numbers
 
-* 🔺 Advanced patterns (Pyramid pattern)
-* 🔁 Number reversal and palindrome check
-* 🔢 Armstrong numbers
-* ✖️ Factorial calculations
-* 📊 Multiplication tables (with input)
-* 🔍 Prime number (optimized approach)
-* ⚙️ GCD and LCM
-* ➕ Sum of digits
-* 💪 Strong number
+### 🔤 String Manipulation
 
----
+* Reverse a string
+* Palindrome string check
+* Count vowels in a string
 
-## 🧠 Key Concepts Practiced
+### 📊 Arrays (Introduction)
 
-* Nested loops and pattern logic
-* Digit extraction using `%` and `/`
-* Mathematical computations
-* Optimization techniques (`i * i <= n`)
-* Function/method creation
-* Code structuring and readability
+* Linear search
+* Finding maximum element
+* Reversing an array
+
+### ⚙️ Control Flow & Utility
+
+* Switch-case implementation (Calculator)
 
 ---
 
-## ⚡ Learning Approach
+## 💻 Programs Included
 
-* Focus on **understanding logic**, not memorizing code
-* Gradually increase difficulty
-* Combine related concepts for better retention
-* Improve code step-by-step
+* ReverseString.java
+* PalindromeString.java
+* CountDigits.java
+* EvenOddSum.java
+* LargestOfThree.java
+* LinearSearch.java
+* MaxInArray.java
+* ReverseArray.java
+* CountVowels.java
+* Calculator.java
+
+---
+
+## 🎯 Key Learnings
+
+* Transitioned from number problems to **multi-concept logic**
+* Understood how to work with **strings and character operations**
+* Gained first hands-on experience with **arrays**
+* Improved ability to combine **loops, conditions, and logic**
+* Learned structured decision-making using **switch-case**
+
+---
+
+## ⚡ Improvements from Previous Days
+
+* Increased problem complexity
+* Introduced **data structures (arrays)**
+* Focus shifted from syntax → **logic building**
+* Better code organization and readability
 
 ---
 
 ## 💡 Next Steps
 
-* Introduce **arrays and searching algorithms**
-* Convert programs into a **menu-driven application**
-* Add **user input handling everywhere**
-* Start integrating logic into **mini projects**
+* Deep dive into arrays (searching, sorting)
+* Learn basic sorting algorithms
+* Handle edge cases and user input
+* Start combining multiple concepts into single programs
 
 ---
 
 ## 📌 Note
 
-Some advanced logic problems originally planned for later days were completed earlier to maintain momentum and challenge progression.
+This day represents a significant step forward in problem-solving ability, moving beyond basic exercises into structured and practical programming scenarios.
 
-This repository reflects a **flexible and growth-oriented learning approach**, prioritizing understanding over rigid scheduling 🚀
-
----
-
-## 🔥 Author
-
-Maintained as part of a continuous journey in mastering Java and problem-solving.
+Consistency and gradual complexity increase remain the primary focus 🚀
