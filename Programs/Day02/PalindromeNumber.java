@@ -12,9 +12,9 @@ public class PalindromeNumber {
         }
 
         if (original == reversed) {
-            System.out.println("Palindrome");
+            System.out.println("Pallindrome");
         } else {
-            System.out.println("Not Palindrome");
+            System.out.println("Not Pallindrome");
         }
     }
 }
