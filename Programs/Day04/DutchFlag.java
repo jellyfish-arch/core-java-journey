@@ -20,7 +20,7 @@ public class DutchFlag {
     }
 
     public static void main(String[] args) {
-        int[] arr = {2,0,2,1,1,0};
+        int[] arr = {2,5,2,3,4,0};
         sort(arr);
         for (int i : arr) System.out.print(i + " ");
     }
