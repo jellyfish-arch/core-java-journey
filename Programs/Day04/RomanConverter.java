@@ -17,6 +17,6 @@ public class RomanConverter {
     }
 
     public static void main(String[] args) {
-        System.out.println(romanToInt("IX"));
+        System.out.println(romanToInt("DCXXI")); // 621
     }
 }
