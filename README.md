@@ -10,6 +10,8 @@
 
 # 
 
+# \- `Programs/` — Day 01–06: logic building, string manipulation, arrays, advanced DS, multithreading & DP
+# 
 # \- `basics/` — Variables, Data Types, Loops, OOP, Exception Handling
 
 # \- `advanced/` — Collections, Generics, Multithreading, Streams, File I/O
