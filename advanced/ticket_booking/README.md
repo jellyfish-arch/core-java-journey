@@ -8,11 +8,11 @@ A console-based ticket booking system with seat management.
 
 ## 🚀 Features
 
-* View available seats
-* Book a seat
-* Cancel booking
-* View all seats (booked + available)
-* Menu-based interaction
+* View available seats,
+* Book a seat,
+* Cancel booking,
+* View all seats (booked + available),
+* Menu-based interaction.
 
 ---
 
