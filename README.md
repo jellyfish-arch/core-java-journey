@@ -6,11 +6,11 @@
 
 # 
 
-# \## 📁 Structure
+# \## 📁 Structure -
 
 # 
 
-# \- `Programs/` — Day 01–06: logic building, string manipulation, arrays, advanced DS, multithreading & DP.
+# \- `Programs/` — Day 01–07: logic building, string manipulation, arrays, advanced DS, multithreading, DP, advanced Java features, and network programming.
 # 
 # \- `basics/` — Variables, Data Types, Loops, OOP, Exception Handling.
 
