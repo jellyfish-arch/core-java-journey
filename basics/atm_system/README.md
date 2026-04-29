@@ -18,9 +18,9 @@ A console-based ATM simulation built using Core Java.
 
 ## 💡 Recent Updates
 
-* Added transaction counter (Day 2)
-* Added PIN change feature (Day 3)
-* Improved validation and user interaction
+* Added transaction counter (Day 2),
+* Added PIN change feature (Day 3),
+* Improved validation and user interaction.
 
 ---
 
