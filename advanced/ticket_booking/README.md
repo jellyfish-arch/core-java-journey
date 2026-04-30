@@ -18,9 +18,9 @@ A console-based ticket booking system with seat management.
 
 ## 💡 Recent Updates
 
-* Added cancel booking feature (Day 2)
-* Added full seat view (Day 3)
-* Improved system interaction
+* Added cancel booking feature (Day 2),
+* Added full seat view (Day 3),
+* Improved system interaction.
 
 ---
 
@@ -33,4 +33,4 @@ java ticket_booking.Main
 
 ## 👨‍💻 Author
 
-Nmuis Iuhra
+Nmuis Iuhra.
