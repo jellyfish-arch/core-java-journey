@@ -33,4 +33,4 @@ java atm_system.Main
 
 ## 👨‍💻 Author
 
-Nmuis Iuhra
+Jelly Fish — [GitHub](https://github.com/jellyfish-arch)
