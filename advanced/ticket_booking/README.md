@@ -26,11 +26,11 @@ A console-based ticket booking system with seat management.
 
 ## ▶️ How to Run
 
-javac basics/ticket_booking/*.java
+javac advanced/ticket_booking/*.java
 java ticket_booking.Main
 
 ---
 
 ## 👨‍💻 Author
 
-Nmuis Iuhra.
+Jelly Fish — [GitHub](https://github.com/jellyfish-arch)
