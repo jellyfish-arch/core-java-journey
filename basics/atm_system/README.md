@@ -8,11 +8,11 @@ A console-based ATM simulation built using Core Java.
 
 ## 🚀 Features
 
-* Login using account number and PIN
-* Deposit and withdraw money
-* Check account balance
-* Track number of transactions
-* Change PIN securely
+* Login using account number and PIN,
+* Deposit and withdraw money,
+* Check account balance,
+* Track number of transactions,
+* Change PIN securely.
 
 ---
 
