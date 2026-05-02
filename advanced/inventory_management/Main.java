@@ -7,7 +7,7 @@ public class Main {
         Inventory inventory = new Inventory();
         Scanner scanner = new Scanner(System.in);
 
-        // Pre-populate some data
+        // Pre-populate some data - used this in Advanced Java section.
         inventory.addProduct(new Product("P001", "Laptop", 999.99, 10));
         inventory.addProduct(new Product("P002", "Wireless Mouse", 29.99, 50));
         inventory.addProduct(new Product("P003", "Mechanical Keyboard", 89.99, 5));
