@@ -33,3 +33,7 @@ java ecommerce_cart.Main
 ## 👨‍💻 Author
 
 Jelly Fish — [GitHub](https://github.com/jellyfish-arch)
+
+---
+
+*🚀 Maintained by Jelly Fish | Last Updated: May 2026*
