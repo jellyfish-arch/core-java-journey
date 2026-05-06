@@ -68,3 +68,7 @@ It includes a mix of:
 ## 📌 Note
 
 This collection wraps up deep dives into advanced core Java capabilities.
+
+---
+
+*🚀 Maintained by Jelly Fish | Last Updated: May 2026*
